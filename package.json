@@ -1,0 +1,36 @@
+{
+  "name": "epoch",
+  "version": "0.0.1",
+  "description": "tiny browser optimised precision timer for JavaScript/TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "prepublish": "tsc",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "time",
+    "timeline",
+    "date",
+    "precision",
+    "animation",
+    "timer",
+    "disruptors",
+    "disrupt"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Darik.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neuralline/epoch.git"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "typescript": "^4.1.5"
+  }
+}
